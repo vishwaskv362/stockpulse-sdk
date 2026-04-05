@@ -1,0 +1,85 @@
+site_name: StockPulse SDK
+site_description: Dynamic catalog-driven Python client library for the StockPulse API
+site_url: https://vishwaskv362.github.io/stockpulse-sdk/
+repo_url: https://github.com/vishwaskv362/stockpulse-sdk
+repo_name: vishwaskv362/stockpulse-sdk
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: deep purple
+      accent: amber
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: deep purple
+      accent: amber
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - content.code.copy
+    - content.code.annotate
+    - search.suggest
+    - search.highlight
+    - toc.follow
+  icon:
+    repo: fontawesome/brands/github
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - tables
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+
+plugins:
+  - search
+  - minify:
+      minify_html: true
+
+nav:
+  - Home: index.md
+  - Getting Started:
+    - Installation: getting-started/installation.md
+    - Quick Start: getting-started/quickstart.md
+  - Guides:
+    - Environment Configuration: guides/environments.md
+    - Error Handling: guides/error-handling.md
+  - API Catalog:
+    - Overview: api-reference/catalog-overview.md
+    - Research Domain: api-reference/research.md
+    - Portfolio Domain: api-reference/portfolio.md
+    - Market Domain: api-reference/market.md
+    - News Domain: api-reference/news.md
+  - SDK Reference:
+    - StockPulse Client: sdk-reference/client.md
+    - ConfigManager: sdk-reference/config.md
+    - Proxy Chain: sdk-reference/proxy.md
+    - Exceptions: sdk-reference/exceptions.md
+  - Architecture: architecture.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/vishwaskv362/stockpulse-sdk

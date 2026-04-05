@@ -12,6 +12,10 @@ dev = [
     "pytest>=8.0.0",
     "pytest-httpx>=0.35.0",
 ]
+docs = [
+    "mkdocs-material>=9.5.0",
+    "mkdocs-minify-plugin>=0.8.0",
+]
 
 [build-system]
 requires = ["hatchling"]

@@ -16,3 +16,6 @@ build/
 
 # Testing
 .pytest_cache/
+
+# MkDocs build output
+site/
