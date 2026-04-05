@@ -1,0 +1,7 @@
+{
+    "name": "uat",
+    "base_url": "https://uat.stockpulse.io/api",
+    "timeout": 15,
+    "retries": 3,
+    "verify_ssl": true
+}

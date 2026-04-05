@@ -1,0 +1,7 @@
+{
+    "name": "prd",
+    "base_url": "https://api.stockpulse.io",
+    "timeout": 10,
+    "retries": 3,
+    "verify_ssl": true
+}

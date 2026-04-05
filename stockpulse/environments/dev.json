@@ -1,0 +1,7 @@
+{
+    "name": "dev",
+    "base_url": "http://localhost:8000",
+    "timeout": 30,
+    "retries": 1,
+    "verify_ssl": false
+}
